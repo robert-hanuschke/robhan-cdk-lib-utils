@@ -10,12 +10,12 @@ import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 )
 
-//go:embed robhan-cdk-lib-utils-0.0.231.tgz
+//go:embed robhan-cdk-lib-utils-0.0.232.tgz
 var tarball []byte
 
 // Initialize loads the necessary packages in the @jsii/kernel to support the enclosing module.
 // The implementation is idempotent (and hence safe to be called over and over).
 func Initialize() {
 	// Load this library into the kernel
-	_jsii_.Load("@robhan-cdk-lib/utils", "0.0.231", tarball)
+	_jsii_.Load("@robhan-cdk-lib/utils", "0.0.232", tarball)
 }
