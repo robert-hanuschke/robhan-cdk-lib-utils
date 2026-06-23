@@ -3,5 +3,5 @@ module github.com/robert-hanuschke/robhan-cdk-lib-utils/robhancdklibutils
 go 1.25
 
 require (
-	github.com/aws/jsii-runtime-go v1.136.0
+	github.com/aws/jsii-runtime-go v1.137.0
 )
